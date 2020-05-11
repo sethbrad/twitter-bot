@@ -6,6 +6,7 @@ var T = new Twit({
 	access_token_secret: '6OnyASSN2Ybk0MznEfYp6JsgsN5ZS41w0XoEx2TzFYumu',
 })
 
+//users to stream for retweet
 var users = ['4487616860', '44196397'];
 var stream = T.stream('statuses/filter', {follow: users});
 

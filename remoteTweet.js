@@ -6,8 +6,10 @@ var T = new Twit({
 	access_token_secret: '6OnyASSN2Ybk0MznEfYp6JsgsN5ZS41w0XoEx2TzFYumu',
 })
 
+//empty string for tweet input
 var input = "";
 
+//iterate through command line args to get tweet
 for (i = 2; i < process.argv.length; i++) {
   input += process.argv[i] + ' ';
 }
