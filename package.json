@@ -1,0 +1,22 @@
+{
+  "name": "twitter-bot",
+  "version": "1.0.0",
+  "description": "\"Experiments with Twitter API and Node.js\"",
+  "main": "remoteTweet.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sethbrad/twitter-bot.git"
+  },
+  "author": "Seth Braddock",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sethbrad/twitter-bot/issues"
+  },
+  "homepage": "https://github.com/sethbrad/twitter-bot#readme",
+  "dependencies": {
+    "twit": "^2.2.11"
+  }
+}
